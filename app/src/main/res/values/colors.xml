@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+
+    <drawable name="addwork_select1">#bc4b4a</drawable>
+    <drawable name="addwork_select2">#ff7473</drawable>
+    <drawable name="run_select1">#d1a442</drawable>
+    <drawable name="run_select2">#ffc952</drawable>
+    <drawable name="history_select1">#40429c</drawable>
+    <drawable name="history_select2">#5f62e1</drawable>
+    <drawable name="help_select1">#232133</drawable>
+    <drawable name="help_select2">#34314c</drawable>
+    <drawable name="buttonsave_select1">#FFC2C2C2</drawable>
+    <drawable name="buttonsave_select2">#ffffff</drawable>
+</resources>

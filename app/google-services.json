@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "874613708594",
+    "firebase_url": "https://gyrocounter.firebaseio.com",
+    "project_id": "gyrocounter",
+    "storage_bucket": "gyrocounter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874613708594:android:c5f9da55f57bda22",
+        "android_client_info": {
+          "package_name": "com.dudwo.gyrocounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874613708594-jbos1q2lcvj629fgl73bjf5mf0vg2dfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dudwo.gyrocounter",
+            "certificate_hash": "9cee30f6fc9829d056cde4163bf65071cc5fc9c6"
+          }
+        },
+        {
+          "client_id": "874613708594-tot3ugop5sv6bp26e3frlmbat7urrmt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhWPltxEQtt-P5aL08Ftl_vctlGniU4e0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874613708594-tot3ugop5sv6bp26e3frlmbat7urrmt9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

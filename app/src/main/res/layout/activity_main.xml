@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dudwo.gyrocounter.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="603dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="150.75dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/add_work1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/addwork_select"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/plus" />
+
+            <ImageButton
+                android:id="@+id/add_work"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@drawable/addwork_select"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/addexercise" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="150.75dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/run"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/run_select"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/run" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150.75dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout2"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/history_select"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/history" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150.75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/sign_out_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/help_select"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/question" />
+
+            <ImageButton
+                android:id="@+id/sign_out_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@drawable/help_select"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/help" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
